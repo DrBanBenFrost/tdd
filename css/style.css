@@ -1,0 +1,270 @@
+@font-face{
+	font-family: "Nico Moji";
+	src: url("../fonts/NicoMoji-Regular.ttf");
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+.container{
+	max-width: 1110px;
+	margin: 0 auto;
+}
+/*.baba{
+	background: background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+padding-left: 50px;
+}
+.zagolovok{
+	color: #f90054;
+	font-size: 30px;
+	margin-bottom: 50px;
+}
+.sdfghj{
+	width: 50%;
+	margin: 60px 100px 200px 301px;
+}*/
+.header{
+	background: #2C2C2C;
+}
+.container_header{
+	display: flex;
+	justify-content: space-between;
+	padding: 36px 0;
+	align-items: center;
+}
+.logo{
+	display: flex;
+	align-items: center;
+}
+.logo__img{
+	margin-right: 10px;
+}
+.logo__title{
+	text-align: center;
+	max-width: 136px;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: Nico Moji;
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.nav__list{
+	display: flex;
+	list-style: none;
+}
+.item__nav:not(:last-child){
+margin-right: 63px;
+}
+.item__nav{
+	color: #FFFFFF;
+	font-size: 15px;
+}
+.main{
+	background: #1E2726;
+}
+.hb__wrap{
+	display: flex;
+	align-items: center;
+	padding-top: 66px;
+}
+.hero-block__title{
+	color: #E4E4E4;
+	font-family: Nico Moji;
+	font-size: 72px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-left: 48px;
+}
+.hero-block__text{
+	olor: #E4E4E4;
+	font-family: Roboto;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	padding-top: 30px;
+	margin-left: 48px;
+}
+.hero-block__button{
+	border-radius: 6px;
+	background: #E2A300;
+	box-shadow: 0px 2px 13px 0px rgba(0, 0, 0, 0.96);
+	width: 224px;
+	height: 47px;
+	margin-left: 48px;
+	margin-top: 30px;
+}
+.hero-block__button:hover{
+	transform: scale(1.1);
+	transition: 1s;
+}
+.about{
+	background: #1E2726;
+	padding: 70px 0 49px 0;
+}
+.about__title{
+	color: #E4E4E4;
+	font-family: Nico Moji;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.about__info{
+	display: flex;
+	align-items: center;
+}
+.about__stat{
+	display: inline-flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 72px;
+}
+.stat__title{
+	color: #E4E4E4;
+	font-family: Nico Moji;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.prog__text{
+	color: #E4E4E4;
+	font-family: Nico Moji;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.prog__bg{
+	background: #00C4F0;
+	width: 356px;
+	height: 10px ;
+}
+.prog__fg_0{
+	width: 50%;
+	height: 100%;
+	background: #2C2C2C;
+}
+.prog__fg_1{
+	width: 75%;
+	height: 100%;
+	background: #2C2C2C;
+}
+.prog__fg_2{
+	width: 60%;
+	height: 100%;
+	background: #2C2C2C;
+}
+.vidio{
+	background: #1E2827;
+	padding: 100px 0;
+}
+.vidio__wrap{
+	height: 659px;
+	max-width: 1111px;
+	margin: 0 auto;
+}
+.vidio__items{
+	width: 90%;
+	height: 90%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+.vidio__conainer{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.vidioBg{
+	width: 100%;
+	height: 100%;
+	background: #2C2C2C;
+	border-radius: 40px;
+}
+.vidio__title{
+	color: #E4E4E4;
+	font-family: Nico Moji;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.gallery__title{
+	color: #E4E4E4;
+	font-family: Nico Moji;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.gallery__list{
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	flex-wrap: wrap;
+}
+.gallery__img{
+	width: 100%;
+	height: 98%;
+
+}
+.gallery__item{
+	width: 32%;
+	margin-right: 1%;
+
+
+}
+
+.gallery{
+	padding: 100px 0;
+	
+}
+/*.tg1{
+	margin-right: 0%;
+}
+.tg2{
+	margin-right: 0%;
+}*/
+.gallery__wrap{
+	max-width: 1350px;
+	margin: 0 auto;
+}
+footer{
+	width: 100%;
+	background: #2C2C2C ;
+
+}
+.footer_foot{
+display: flex;
+justify-content: space-between;
+padding: 50px 0;
+}
+.footer__text{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 18px;
+	color: #FFFFFF;
+}
+.footer__link{
+	margin: 10px;
+}
+.autor__name{
+	font-size: 40px;
+}
+.copi{
+	font-size: 20px;
+}
